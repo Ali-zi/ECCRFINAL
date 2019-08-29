@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_nature_of_discussion" table="x_lin_eccr_meeting_visit_call_request" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_nature_of_discussion</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Please select</label>
+            <language>en</language>
+            <name>x_lin_eccr_meeting_visit_call_request</name>
+            <sequence/>
+            <sys_created_by>ali@ligado.com</sys_created_by>
+            <sys_created_on>2019-08-28 19:28:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a6d472eddb2f73009cc9fdb61d961974</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ali@ligado.com</sys_updated_by>
+            <sys_updated_on>2019-08-28 19:28:25</sys_updated_on>
+            <value>NULL_OVERRIDE</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_nature_of_discussion</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Business/Non-Technical</label>
+            <language>en</language>
+            <name>x_lin_eccr_meeting_visit_call_request</name>
+            <sequence>10</sequence>
+            <sys_created_by>ali@ligado.com</sys_created_by>
+            <sys_created_on>2019-08-28 19:28:46</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>100536eddb2f73009cc9fdb61d961921</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ali@ligado.com</sys_updated_by>
+            <sys_updated_on>2019-08-28 19:28:46</sys_updated_on>
+            <value>Business/Non-Technical</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_nature_of_discussion</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Technical</label>
+            <language>en</language>
+            <name>x_lin_eccr_meeting_visit_call_request</name>
+            <sequence>20</sequence>
+            <sys_created_by>ali@ligado.com</sys_created_by>
+            <sys_created_on>2019-08-28 19:28:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2e05b2eddb2f73009cc9fdb61d9619b7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ali@ligado.com</sys_updated_by>
+            <sys_updated_on>2019-08-28 19:28:55</sys_updated_on>
+            <value>Technical</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_nature_of_discussion</element>
+            <name>x_lin_eccr_meeting_visit_call_request</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>ali@ligado.com</sys_created_by>
+            <sys_created_on>2019-08-28 19:28:25</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>8fe436eddb2f73009cc9fdb61d96193f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_nature_of_discussion</sys_name>
+            <sys_package display_value="ECCR" source="x_lin_eccr">d00769d9db2f7300045bff971d961932</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="ECCR">d00769d9db2f7300045bff971d961932</sys_scope>
+            <sys_update_name>sys_choice_x_lin_eccr_meeting_visit_call_request_u_nature_of_discussion</sys_update_name>
+            <sys_updated_by>ali@ligado.com</sys_updated_by>
+            <sys_updated_on>2019-08-28 19:28:25</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

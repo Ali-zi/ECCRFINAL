@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_lin_eccr.checkMeetingParticipants</api_name>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>checkMeetingParticipants</name>
+        <script><![CDATA[var checkMeetingParticipants = Class.create();
+checkMeetingParticipants.prototype = {
+	
+	initialize: function(){},
+	
+	checkMeetingParticipants: function() {
+		var grExternal = new GlideRecord("x_lin_eccr_external_participants");
+		grExternal.addQuery("u_meeting_visit_call_request", current.sys_id);
+		grExternal.query();
+
+		var countEx = grExternal.getRowCount();
+
+		if(countEx == 0)
+			return false;
+		else
+			return true;
+	},
+
+		type: 'checkMeetingParticipants'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>ali@ligado.com</sys_created_by>
+        <sys_created_on>2019-08-28 21:18:39</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>57ed83a1dbaf73009cc9fdb61d96190a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>checkMeetingParticipants</sys_name>
+        <sys_package display_value="ECCR" source="x_lin_eccr">d00769d9db2f7300045bff971d961932</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="ECCR">d00769d9db2f7300045bff971d961932</sys_scope>
+        <sys_update_name>sys_script_include_57ed83a1dbaf73009cc9fdb61d96190a</sys_update_name>
+        <sys_updated_by>ali@ligado.com</sys_updated_by>
+        <sys_updated_on>2019-08-28 21:18:39</sys_updated_on>
+    </sys_script_include>
+</record_update>

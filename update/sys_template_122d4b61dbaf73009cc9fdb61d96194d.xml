@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_template">
+    <sys_template action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <global>false</global>
+        <group/>
+        <link_element/>
+        <name>TEMPLATE47</name>
+        <next/>
+        <next_child/>
+        <roles/>
+        <short_description/>
+        <show_on_template_bar>true</show_on_template_bar>
+        <stand_alone>false</stand_alone>
+        <sys_class_name>sys_template</sys_class_name>
+        <sys_created_by>ali@ligado.com</sys_created_by>
+        <sys_created_on>2019-08-28 21:14:26</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>122d4b61dbaf73009cc9fdb61d96194d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>TEMPLATE47</sys_name>
+        <sys_package display_value="ECCR" source="x_lin_eccr">d00769d9db2f7300045bff971d961932</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="ECCR">d00769d9db2f7300045bff971d961932</sys_scope>
+        <sys_update_name>sys_template_122d4b61dbaf73009cc9fdb61d96194d</sys_update_name>
+        <sys_updated_by>ali@ligado.com</sys_updated_by>
+        <sys_updated_on>2019-08-28 21:14:26</sys_updated_on>
+        <table>x_lin_eccr_meeting_visit_call_request</table>
+        <template>state=20^u_date_requested=2019-08-28 17:13:48^u_location_of_host_meeting=reston^u_meeting_date_start=2019-08-28 17:14:09^u_meeting_title=s^u_meeting_type=Conference Call^u_nature_of_discussion=Technical^u_nature_of_material=Export Controlled^u_purpose_of_meeting=s^u_requested_for.email=Warren.Jones@ligado.com^u_requested_for=4e6b1f76db9673001edaff971d9619d8^u_submitter=a2744121dbeab7001edaff971d96190a^EQ</template>
+        <user display_value="Ali Mowazi">6349b24fdbba4f001418f9961d961904</user>
+        <view/>
+    </sys_template>
+</record_update>
