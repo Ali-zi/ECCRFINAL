@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="task" label="International Travel Request" max_length="40" name="x_lin_eccr_international_travel_request" type="collection">
+        <element label="Approximate Value" max_length="20" name="u_approximate_value_laptop" type="price"/>
+        <element label="Approximate Value" max_length="20" name="u_approximate_value_other" type="price"/>
+        <element label="Approximate Value" max_length="20" name="u_approximate_value_smartphone" type="price"/>
+        <element label="Contact" max_length="40" name="u_contact" type="string"/>
+        <element label="Contact Phone" max_length="40" name="u_contact_phone" type="string"/>
+        <element label="Date Requested" max_length="40" name="u_date_requested" reference="sys_ui_reference_style" type="glide_date_time"/>
+        <element label="Departure Date" max_length="40" name="u_departure_date" type="glide_date"/>
+        <element label="Description" max_length="40" name="u_description_other" type="string"/>
+        <element label="Destination Country" max_length="32" name="u_destination_country" reference="u_foreign_locations" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" default="The purpose of this form is to elicit information necessary to record all international business travel (which includes international personal travel with company-issued devices) and to ensure that sharing technical data during international travel (or the mere travel with technical data) is in accordance with applicable law. Please provide a detailed description of your travel, including the purpose of your travel and whether technical data will be released to foreign persons (including Canadian employees) while abroad. In addition, please provide a detailed description of any company-issued laptop, blackberry/smartphone, PDA (personal digital assistant) and any software as you will be issued a Temporary Export (Tools-of-the-Trade) letter by the Legal department prior to your international travel. All international travel must be approved in ADVANCE by Legal." label="    " max_length="20000" name="u_header" read_only="true" type="string"/>
+        <element label="Hotel Address" max_length="300" name="u_hotel_address" type="string"/>
+        <element label="Hotel Name" max_length="100" name="u_hotel_name" type="string"/>
+        <element label="Internal Contact" max_length="32" name="u_internal_contact" reference="sys_user" type="reference"/>
+        <element label="Laptop" max_length="40" name="u_laptop" type="boolean"/>
+        <element label="Manufacturer" max_length="40" name="u_manufacturer_laptop" type="string"/>
+        <element label="Manufacturer" max_length="40" name="u_manufacturer_other" type="string"/>
+        <element label="Manufacturer" max_length="40" name="u_manufacturer_smartphone" type="string"/>
+        <element label="Model" max_length="40" name="u_model_laptop" type="string"/>
+        <element label="Model" max_length="40" name="u_model_other" type="string"/>
+        <element label="Model" max_length="40" name="u_model_smartphone" type="string"/>
+        <element label="Other" max_length="40" name="u_other" type="boolean"/>
+        <element label="Purpose of Visit" max_length="200" name="u_purpose_of_visit" type="string"/>
+        <element label="Requested For" mandatory="true" max_length="32" name="u_requested_for" reference="sys_user" type="reference"/>
+        <element label="Return Date" max_length="40" name="u_return_date" type="glide_date"/>
+        <element active="false" label="Serial Number" max_length="40" name="u_serial_number" type="string"/>
+        <element label="Serial Number" max_length="40" name="u_serial_number_laptop" type="string"/>
+        <element label="Serial Number" max_length="40" name="u_serial_number_other" type="string"/>
+        <element label="Serial Number" max_length="40" name="u_serial_number_smartphone" type="string"/>
+        <element label="Smartphone" max_length="40" name="u_smartphone" type="boolean"/>
+        <element label="Special Requirements and/or Additional Countries" max_length="300" name="u_special_requirements" type="string"/>
+        <element label="Submitter" max_length="32" name="u_submitter" reference="sys_user" type="reference" use_dynamic_default="true"/>
+        <element choice="1" label="Travel Destination" max_length="40" name="u_travel_destination" type="choice">
+            <choice/>
+        </element>
+        <element choice="1" label="Travel Type" mandatory="true" max_length="40" name="u_travel_type" type="choice">
+            <choice/>
+        </element>
+    </element>
+</database>

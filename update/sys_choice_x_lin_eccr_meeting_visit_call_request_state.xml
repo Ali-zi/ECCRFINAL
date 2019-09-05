@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><record_update>
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
     <sys_choice action="INSERT_OR_UPDATE" field="state" table="x_lin_eccr_meeting_visit_call_request" version="3">
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
@@ -140,7 +141,7 @@
             <sys_created_by>ali@ligado.com</sys_created_by>
             <sys_created_on>2019-08-28 21:09:15</sys_created_on>
             <sys_customer_update>false</sys_customer_update>
-            <sys_id>980c8b21dbaf73009cc9fdb61d96192b</sys_id>
+            <sys_id>3380c442db273300045bff971d9619bc</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>state</sys_name>
             <sys_package display_value="ECCR" source="x_lin_eccr">d00769d9db2f7300045bff971d961932</sys_package>

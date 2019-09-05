@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><record_update>
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
     <sys_documentation element="u_table_name_1" label="New Table Name" language="en" table="x_lin_eccr_meeting_visit_call_request">
         <sys_documentation action="INSERT_OR_UPDATE">
             <element>u_table_name_1</element>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <disabled>true</disabled>
+        <field>u_nature_of_material</field>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>ali@ligado.com</sys_created_by>
+        <sys_created_on>2019-09-03 18:20:40</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>27de512fdb63f3009cc9fdb61d9619c6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_nature_of_material</sys_name>
+        <sys_package display_value="ECCR" source="x_lin_eccr">d00769d9db2f7300045bff971d961932</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="ECCR">d00769d9db2f7300045bff971d961932</sys_scope>
+        <sys_update_name>sys_ui_policy_action_27de512fdb63f3009cc9fdb61d9619c6</sys_update_name>
+        <sys_updated_by>ali@ligado.com</sys_updated_by>
+        <sys_updated_on>2019-09-03 18:20:40</sys_updated_on>
+        <table>x_lin_eccr_meeting_visit_call_request</table>
+        <ui_policy display_value="Make all field read only after submission">182dd1ebdb63f3009cc9fdb61d961987</ui_policy>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+</record_update>

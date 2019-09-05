@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><record_update>
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
     <sys_choice action="INSERT_OR_UPDATE" field="u_us_citizen" table="x_lin_eccr_external_participants" version="3">
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
@@ -64,7 +65,7 @@
             <sys_created_by>ali@ligado.com</sys_created_by>
             <sys_created_on>2019-08-28 20:56:29</sys_created_on>
             <sys_customer_update>false</sys_customer_update>
-            <sys_id>09198f6ddb6f73009cc9fdb61d96193e</sys_id>
+            <sys_id>ff80c442db273300045bff971d9619b5</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>u_us_citizen</sys_name>
             <sys_package display_value="ECCR" source="x_lin_eccr">d00769d9db2f7300045bff971d961932</sys_package>

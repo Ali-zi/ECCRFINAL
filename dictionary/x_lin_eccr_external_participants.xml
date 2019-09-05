@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><database>
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
     <element label="External Participants" max_length="40" name="x_lin_eccr_external_participants" type="collection">
         <element active="false" label="Expire Period (if known)" max_length="255" name="expire_period" type="string"/>
         <element active="false" attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
@@ -16,9 +17,9 @@
         <element label="Pre Screen Date (if known)" max_length="255" name="u_pre_screen_date" type="string"/>
         <element choice="1" label="U.S. Citizen or Greencard holder?" mandatory="true" max_length="40" name="u_us_citizen" type="choice">
             <choice>
-                <element inactive_on_update="false" label="Please select" value="NULL_OVERRIDE"/>
-                <element inactive_on_update="false" label="Yes" sequence="10" value="yes"/>
-                <element inactive_on_update="false" label="No" sequence="20" value="no"/>
+                <element label="Please select" value="NULL_OVERRIDE"/>
+                <element label="Yes" sequence="10" value="yes"/>
+                <element label="No" sequence="20" value="no"/>
             </choice>
         </element>
         <index name="index">

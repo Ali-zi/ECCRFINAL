@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><record_update table="wf_workflow_version">
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="wf_workflow_version">
     <wf_workflow_version action="INSERT_OR_UPDATE">
         <active>true</active>
         <activity_stages>{"ends":["6bd5f8b5dba3b3009cc9fdb61d961926"],"stages":{},"activities":{},"subflows":[]}</activity_stages>

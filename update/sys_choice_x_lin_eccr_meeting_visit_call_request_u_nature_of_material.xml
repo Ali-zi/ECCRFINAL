@@ -1,5 +1,25 @@
-<?xml version="1.0" encoding="UTF-8"?><record_update>
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
     <sys_choice action="INSERT_OR_UPDATE" field="u_nature_of_material" table="x_lin_eccr_meeting_visit_call_request" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_nature_of_material</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Please select</label>
+            <language>en</language>
+            <name>x_lin_eccr_meeting_visit_call_request</name>
+            <sequence/>
+            <sys_created_by>ali@ligado.com</sys_created_by>
+            <sys_created_on>2019-09-03 13:46:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>bfff5c6bdbefb3009cc9fdb61d961907</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ali@ligado.com</sys_updated_by>
+            <sys_updated_on>2019-09-03 13:46:11</sys_updated_on>
+            <value>NULL_OVERRIDE</value>
+        </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
             <element>u_nature_of_material</element>
@@ -45,7 +65,7 @@
             <sys_created_by>ali@ligado.com</sys_created_by>
             <sys_created_on>2019-08-28 18:56:27</sys_created_on>
             <sys_customer_update>false</sys_customer_update>
-            <sys_id>729dae29db2f73009cc9fdb61d961967</sys_id>
+            <sys_id>48900842db273300045bff971d9619f1</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>u_nature_of_material</sys_name>
             <sys_package display_value="ECCR" source="x_lin_eccr">d00769d9db2f7300045bff971d961932</sys_package>
