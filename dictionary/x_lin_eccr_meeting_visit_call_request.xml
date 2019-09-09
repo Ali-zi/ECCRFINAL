@@ -1,13 +1,12 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<database>
-    <element extends="task" label="Meeting/Visit/Call Request" max_length="40" name="x_lin_eccr_meeting_visit_call_request" sizeclass="3" type="collection">
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="task" label="Meeting/Visit/Call Request" max_length="40" name="x_lin_eccr_meeting_visit_call_request" sizeclass="4" type="collection">
         <element active="false" choice="1" label="Nature of Discussion?" max_length="40" name="nature_of_discussion" type="choice">
             <choice/>
         </element>
         <element active="false" label="Other Location" max_length="40" name="other_location" type="string"/>
         <element choice="1" label="Conference Room" max_length="32" name="u_conference_room" reference="u_conference_rooms" type="reference">
             <choice>
-                <element label="Please select" value="NULL_OVERRIDE"/>
+                <element inactive_on_update="false" label="Please select" value="NULL_OVERRIDE"/>
             </choice>
         </element>
         <element default="javascript:gs.nowDateTime()" dynamic_default_value="79cb83a85f220100a9ad2572f2b4773c" label="Date Requested" max_length="40" name="u_date_requested" type="glide_date_time" use_dynamic_default="true"/>
@@ -16,10 +15,10 @@
         <element label="Expected start" mandatory="true" max_length="40" name="u_expected_start" type="glide_date_time"/>
         <element choice="1" label="Location of Host Meeting" mandatory="true" max_length="40" name="u_location_of_host_meeting" type="choice">
             <choice>
-                <element label="Please select" value="NULL_OVERRIDE"/>
-                <element label="Reston" sequence="10" value="reston"/>
-                <element label="Ottawa" sequence="20" value="ottawa"/>
-                <element label="Other" sequence="30" value="other"/>
+                <element inactive_on_update="false" label="Please select" value="NULL_OVERRIDE"/>
+                <element inactive_on_update="false" label="Reston" sequence="10" value="reston"/>
+                <element inactive_on_update="false" label="Ottawa" sequence="20" value="ottawa"/>
+                <element inactive_on_update="false" label="Other" sequence="30" value="other"/>
             </choice>
         </element>
         <element label="Meeting Date/Time End" max_length="40" name="u_meeting_date_end" type="glide_date_time"/>
@@ -27,24 +26,24 @@
         <element label="Meeting Title" mandatory="true" max_length="4000" name="u_meeting_title" type="string"/>
         <element choice="1" label="Meeting Type?" mandatory="true" max_length="40" name="u_meeting_type" type="choice">
             <choice>
-                <element label="Please select" value="NULL_OVERRIDE"/>
-                <element label="Conference Call" sequence="10" value="Conference Call"/>
-                <element label="On-Site" sequence="20" value="On-Site"/>
-                <element label="Conference Call/On-site" sequence="30" value="Conference Call/On-site"/>
+                <element inactive_on_update="false" label="Please select" value="NULL_OVERRIDE"/>
+                <element inactive_on_update="false" label="Conference Call" sequence="10" value="Conference Call"/>
+                <element inactive_on_update="false" label="On-Site" sequence="20" value="On-Site"/>
+                <element inactive_on_update="false" label="Conference Call/On-site" sequence="30" value="Conference Call/On-site"/>
             </choice>
         </element>
         <element choice="1" label="Nature of Discussion?" mandatory="true" max_length="40" name="u_nature_of_discussion" type="choice">
             <choice>
-                <element label="Please select" value="NULL_OVERRIDE"/>
-                <element label="Business/Non-Technical" sequence="10" value="Business/Non-Technical"/>
-                <element label="Technical" sequence="20" value="Technical"/>
+                <element inactive_on_update="false" label="Please select" value="NULL_OVERRIDE"/>
+                <element inactive_on_update="false" label="Business/Non-Technical" sequence="10" value="Business/Non-Technical"/>
+                <element inactive_on_update="false" label="Technical" sequence="20" value="Technical"/>
             </choice>
         </element>
         <element choice="1" label="Nature of Material?" mandatory="true" max_length="40" name="u_nature_of_material" type="choice">
             <choice>
-                <element label="Please select" value="NULL_OVERRIDE"/>
-                <element label="Export Controlled" sequence="10" value="Export Controlled"/>
-                <element label="Not Export Controlled" sequence="20" value="Not Export Controlled"/>
+                <element inactive_on_update="false" label="Please select" value="NULL_OVERRIDE"/>
+                <element inactive_on_update="false" label="Export Controlled" sequence="10" value="Export Controlled"/>
+                <element inactive_on_update="false" label="Not Export Controlled" sequence="20" value="Not Export Controlled"/>
             </choice>
         </element>
         <element label="Other Location" max_length="50" name="u_other_location" type="string"/>

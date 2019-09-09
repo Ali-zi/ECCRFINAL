@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_template">
+    <sys_template action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <global>false</global>
+        <group/>
+        <link_element/>
+        <name>TEMPLATE52</name>
+        <next/>
+        <next_child/>
+        <roles/>
+        <short_description/>
+        <show_on_template_bar>true</show_on_template_bar>
+        <stand_alone>false</stand_alone>
+        <sys_class_name>sys_template</sys_class_name>
+        <sys_created_by>ali@ligado.com</sys_created_by>
+        <sys_created_on>2019-09-05 18:28:38</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>62e3b3c4dbb737009cc9fdb61d96191d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>TEMPLATE52</sys_name>
+        <sys_package display_value="ECCR" source="x_lin_eccr">d00769d9db2f7300045bff971d961932</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="ECCR">d00769d9db2f7300045bff971d961932</sys_scope>
+        <sys_update_name>sys_template_62e3b3c4dbb737009cc9fdb61d96191d</sys_update_name>
+        <sys_updated_by>ali@ligado.com</sys_updated_by>
+        <sys_updated_on>2019-09-05 18:28:38</sys_updated_on>
+        <table>x_lin_eccr_international_travel_request</table>
+        <template>state=20^u_approximate_value_laptop=javascript:global.getCurrencyFilter('x_lin_eccr_international_travel_request','u_approximate_value_laptop', 'USD;USD;20.00')^u_approximate_value_other=javascript:global.getCurrencyFilter('x_lin_eccr_international_travel_request','u_approximate_value_other', 'USD;USD;0.00')^u_approximate_value_smartphone=javascript:global.getCurrencyFilter('x_lin_eccr_international_travel_request','u_approximate_value_smartphone', 'USD;USD;0.00')^u_contact=ss^u_contact_phone=s^u_date_requested=2019-09-06 14:28:20^u_departure_date=2019-09-13^u_destination_country=3f095d1cdb006700045bff971d96195f^u_hotel_address=a^u_hotel_name=a^u_internal_contact=a2744121dbeab7001edaff971d96190a^u_laptop=true^u_manufacturer_laptop=a^u_model_laptop=a^u_other=false^u_purpose_of_visit=s^u_requested_for.email=Sachin@ligado.com^u_requested_for=35e13c7ddbbcd7401edaff971d9619b3^u_return_date=2019-09-28^u_serial_number_laptop=a^u_smartphone=false^u_submitter=6349b24fdbba4f001418f9961d961904^u_travel_destination=reston_office^u_travel_type=personal_with_ligado_devices^EQ</template>
+        <user display_value="Ali Mowazi">6349b24fdbba4f001418f9961d961904</user>
+        <view/>
+    </sys_template>
+</record_update>

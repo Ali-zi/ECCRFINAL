@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="task" label="Electronic Data Transfer Request" max_length="40" name="x_lin_eccr_electronic_data_transfer_request" type="collection">
+        <element attributes="timeDimension=true,edge_encryption_enabled=true,sla_basis=incident" default="javascript:gs.nowDateTime()" dynamic_default_value="79cb83a85f220100a9ad2572f2b4773c" label="Date Requested" max_length="40" name="u_date_requested" type="glide_date_time" use_dynamic_default="true"/>
+        <element label="Requested For" mandatory="true" max_length="32" name="u_requested_for" reference="sys_user" type="reference"/>
+        <element label="Submitter" max_length="32" name="u_submitter" reference="sys_user" type="reference"/>
+    </element>
+</database>

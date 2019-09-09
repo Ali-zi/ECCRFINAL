@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>u_other</field>
+        <global>true</global>
+        <isolate_script>false</isolate_script>
+        <messages>When the Other box is ticked, display and make mandatory the Description, Manufacturer, Model, Serial Number and Approximate Value  fields , else hide them.</messages>
+        <name>Show  Other Checkbox Details </name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+  	// when Laptop is ticked, set Manufacturer, Model, Serial Number and Approximate Value to show, else hide
+	if (newValue === 'true') {
+		//show the fields
+		g_form.setDisplay('u_description_other', true);
+		g_form.setDisplay('u_other_manufacturer_other', true);
+		g_form.setDisplay('u_model_other', true);
+		g_form.setDisplay('u_serial_number_other', true);
+		g_form.setDisplay('u_approximate_value_other', true);
+		//make the fields mandatory upon reveal
+		g_form.setMandatory('u_description_other', true);
+		g_form.setMandatory('u_other_manufacturer_other', true);
+		g_form.setMandatory('u_pers_other_mod', true);
+		g_form.setMandatory('u_serial_number_other', true);
+		g_form.setMandatory('u_approximate_value_other', true);
+	} else {
+		//reverse - make the fields mandatory upon reveal
+		g_form.setMandatory('u_description_other', false);
+		g_form.setMandatory('u_other_manufacturer_other', false);
+		g_form.setMandatory('u_model_other', false);
+		g_form.setMandatory('u_serial_number_other', false);
+		g_form.setMandatory('u_approximate_value_other', false);
+		//hide the fields
+		g_form.setDisplay('u_description_other', false);
+		g_form.setDisplay('u_other_manufacturer_other', false);
+		g_form.setDisplay('u_model_other', false);
+		g_form.setDisplay('u_serial_number_other', false);
+		g_form.setDisplay('u_approximate_value_other', false);
+	}	   
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>ali@ligado.com</sys_created_by>
+        <sys_created_on>2019-09-05 19:14:42</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>00dd774cdbb737009cc9fdb61d961903</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Show  Other Checkbox Details </sys_name>
+        <sys_overrides/>
+        <sys_package display_value="ECCR" source="x_lin_eccr">d00769d9db2f7300045bff971d961932</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="ECCR">d00769d9db2f7300045bff971d961932</sys_scope>
+        <sys_update_name>sys_script_client_00dd774cdbb737009cc9fdb61d961903</sys_update_name>
+        <sys_updated_by>ali@ligado.com</sys_updated_by>
+        <sys_updated_on>2019-09-05 19:14:42</sys_updated_on>
+        <table>x_lin_eccr_international_travel_request</table>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>
