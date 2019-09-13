@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Document Information" max_length="40" name="x_lin_eccr_document_information" type="collection">
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element choice="1" label="Business Entity" max_length="40" name="u_business_entity" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Ligado Networks Corp" sequence="10" value="Ligado Networks Corp"/>
+                <element inactive_on_update="false" label="Ligado Networks LLC" sequence="20" value="Ligado Networks LLC"/>
+                <element inactive_on_update="false" label="One Dot Six LLC" sequence="30" value="One Dot Six LLC"/>
+            </choice>
+        </element>
+        <element choice="1" label="Cost Center" max_length="40" name="u_cost_center" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="1500-Satellite Network Engineering" sequence="10" value="1500-Satellite Network Engineering"/>
+                <element inactive_on_update="false" label="1510-Technology Research and Analysis" sequence="20" value="1510-Technology Research and Analysis"/>
+                <element inactive_on_update="false" label="1515-Network" sequence="30" value="1515-Network"/>
+                <element inactive_on_update="false" label="1520-Network Operations" sequence="40" value="1520-Network Operations"/>
+                <element inactive_on_update="false" label="1525-Satellite Gateways" sequence="50" value="1525-Satellite Gateways"/>
+                <element inactive_on_update="false" label="1530-Spectrum Mgmt &amp; Radio Access Technology" sequence="60" value="1530-Spectrum Mgmt &amp; Radio Access Technology"/>
+                <element inactive_on_update="false" label="1545-Technology Development and Validation" sequence="70" value="1545-Technology Development and Validation"/>
+                <element inactive_on_update="false" label="1600-Ligado Canada Operations" sequence="80" value="1600-Ligado Canada Operations"/>
+                <element inactive_on_update="false" label="4100-Enterprise Sales" sequence="90" value="4100-Enterprise Sales"/>
+                <element inactive_on_update="false" label="4200- Marketing" sequence="100" value="4200- Marketing"/>
+                <element inactive_on_update="false" label="4220-Product Management" sequence="110" value="4220-Product Management"/>
+                <element inactive_on_update="false" label="6000-Executive Management" sequence="120" value="6000-Executive Management"/>
+                <element inactive_on_update="false" label="6100-Procurement" sequence="130" value="6100-Procurement"/>
+                <element inactive_on_update="false" label="6150-Legal" sequence="140" value="6150-Legal"/>
+                <element inactive_on_update="false" label="6200-Regulatory Affairs" sequence="150" value="6200-Regulatory Affairs"/>
+                <element inactive_on_update="false" label="6300-Human Resource" sequence="160" value="6300-Human Resource"/>
+                <element inactive_on_update="false" label="6500-Finance" sequence="170" value="6500-Finance"/>
+                <element inactive_on_update="false" label="6520-Strategic Planning &amp; Pricing" sequence="180" value="6520-Strategic Planning &amp; Pricing"/>
+                <element inactive_on_update="false" label="6530-Corporate Development" sequence="180" value="6530-Corporate Development"/>
+                <element inactive_on_update="false" label="6600-General &amp; Administrative" sequence="180" value="6600-General &amp; Administrative"/>
+                <element inactive_on_update="false" label="1000-Network Management" sequence="190" value="1000-Network Management"/>
+                <element inactive_on_update="false" label="1400-Facilities" sequence="200" value="1400-Facilities"/>
+                <element inactive_on_update="false" label="1420-Services and Infrastructure Technology" sequence="210" value="1420-Services and Infrastructure Technology"/>
+            </choice>
+        </element>
+        <element label="Document Description" max_length="100" name="u_document_description" type="string"/>
+        <element label="Document Title" max_length="100" name="u_document_title" type="string"/>
+        <element label="Export Authorization" max_length="32" name="u_export_authorization" reference="u_export_authorization" type="reference"/>
+        <element label="Shipment Request" max_length="32" name="u_shipment_request" read_only="true" reference="x_lin_eccr_shipment_request" type="reference"/>
+        <element label="USML Category or ECCN" max_length="100" name="u_usml_category_or_eccn" type="string"/>
+        <index name="index">
+            <element name="u_export_authorization"/>
+        </index>
+        <index name="index2">
+            <element name="u_shipment_request"/>
+        </index>
+        <index name="index3">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>

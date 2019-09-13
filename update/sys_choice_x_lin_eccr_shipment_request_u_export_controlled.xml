@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_export_controlled" table="x_lin_eccr_shipment_request" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_export_controlled</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Please select</label>
+            <language>en</language>
+            <name>x_lin_eccr_shipment_request</name>
+            <sequence>100</sequence>
+            <sys_created_by>ali@ligado.com</sys_created_by>
+            <sys_created_on>2019-09-12 14:22:17</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f4ae3adedbff3700045bff971d961909</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ali@ligado.com</sys_updated_by>
+            <sys_updated_on>2019-09-12 14:22:17</sys_updated_on>
+            <value>NULL_OVERRIDE</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_export_controlled</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>ITAR</label>
+            <language>en</language>
+            <name>x_lin_eccr_shipment_request</name>
+            <sequence>200</sequence>
+            <sys_created_by>ali@ligado.com</sys_created_by>
+            <sys_created_on>2019-09-12 14:22:31</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d4ce3adedbff3700045bff971d96190c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ali@ligado.com</sys_updated_by>
+            <sys_updated_on>2019-09-12 14:22:31</sys_updated_on>
+            <value>itar</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_export_controlled</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>EAR</label>
+            <language>en</language>
+            <name>x_lin_eccr_shipment_request</name>
+            <sequence>300</sequence>
+            <sys_created_by>ali@ligado.com</sys_created_by>
+            <sys_created_on>2019-09-12 14:22:40</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6ece72dedbff3700045bff971d961949</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ali@ligado.com</sys_updated_by>
+            <sys_updated_on>2019-09-12 14:22:40</sys_updated_on>
+            <value>ear</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_export_controlled</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Not Export Controlled</label>
+            <language>en</language>
+            <name>x_lin_eccr_shipment_request</name>
+            <sequence>400</sequence>
+            <sys_created_by>ali@ligado.com</sys_created_by>
+            <sys_created_on>2019-09-12 14:23:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d4ee32dedbff3700045bff971d961901</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ali@ligado.com</sys_updated_by>
+            <sys_updated_on>2019-09-12 14:23:03</sys_updated_on>
+            <value>not export controlled</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_export_controlled</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Unknown</label>
+            <language>en</language>
+            <name>x_lin_eccr_shipment_request</name>
+            <sequence>500</sequence>
+            <sys_created_by>ali@ligado.com</sys_created_by>
+            <sys_created_on>2019-09-12 14:23:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a2ee7a9edbff3700045bff971d9619c6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ali@ligado.com</sys_updated_by>
+            <sys_updated_on>2019-09-12 14:23:13</sys_updated_on>
+            <value>unknown</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_export_controlled</element>
+            <name>x_lin_eccr_shipment_request</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>ali@ligado.com</sys_created_by>
+            <sys_created_on>2019-09-12 14:22:17</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>45befe9edbff3700045bff971d96191e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_export_controlled</sys_name>
+            <sys_package display_value="ECCR" source="x_lin_eccr">d00769d9db2f7300045bff971d961932</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="ECCR">d00769d9db2f7300045bff971d961932</sys_scope>
+            <sys_update_name>sys_choice_x_lin_eccr_shipment_request_u_export_controlled</sys_update_name>
+            <sys_updated_by>ali@ligado.com</sys_updated_by>
+            <sys_updated_on>2019-09-12 14:22:17</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Document/File Information" max_length="40" name="x_lin_eccr_document_file_information" type="collection">
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element label="Applicable USML Category or ECCN" max_length="100" name="u_applicable_usml" type="string"/>
+        <element label="Document/File Description/Notes" mandatory="true" max_length="100" name="u_document_file_description_notes" type="string"/>
+        <element label="Document/File Title" mandatory="true" max_length="100" name="u_document_file_title" type="string"/>
+        <element label="Electronic Data Transfer Request" max_length="32" name="u_electronic_data_transfer_request" reference="x_lin_eccr_electronic_data_transfer_request" type="reference"/>
+        <element label="Export Authorization" max_length="32" name="u_export_authorization" reference="u_export_authorization" type="reference"/>
+        <element choice="1" label="Export Controlled" max_length="40" name="u_export_controlled" type="choice">
+            <choice/>
+        </element>
+        <index name="index">
+            <element name="u_export_authorization"/>
+        </index>
+        <index name="index2">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="External Recipients" max_length="40" name="x_lin_eccr_external_recipients" type="collection">
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element label="Citizenship" mandatory="true" max_length="32" name="u_citizenship" reference="u_citizenships" type="reference"/>
+        <element label="Company" mandatory="true" max_length="255" name="u_company" type="string"/>
+        <element label="Company Address" mandatory="true" max_length="1000" name="u_company_address" type="string"/>
+        <element label="Country of Citizenship" mandatory="true" max_length="32" name="u_country_of_citizenship" reference="u_foreign_locations" type="reference"/>
+        <element label="Electronic Data Transfer Request" max_length="32" name="u_electronic_data_transfer_request" read_only="true" reference="x_lin_eccr_electronic_data_transfer_request" type="reference"/>
+        <element label="Email" mandatory="true" max_length="255" name="u_email" type="string"/>
+        <element label="First Name" mandatory="true" max_length="255" name="u_first_name" type="string"/>
+        <element label="Last Name" mandatory="true" max_length="255" name="u_last_name" type="string"/>
+        <element label="Location of Recipient" mandatory="true" max_length="32" name="u_location_of_recipient" reference="u_foreign_locations" type="reference"/>
+        <index name="index">
+            <element name="u_citizenship"/>
+        </index>
+        <index name="index2">
+            <element name="u_location_of_recipient"/>
+        </index>
+        <index name="index3">
+            <element name="sys_class_name"/>
+        </index>
+        <index name="index4">
+            <element name="u_country_of_citizenship"/>
+        </index>
+    </element>
+</database>

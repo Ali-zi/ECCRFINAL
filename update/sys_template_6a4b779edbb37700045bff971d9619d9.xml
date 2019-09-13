@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_template">
+    <sys_template action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <global>false</global>
+        <group/>
+        <link_element/>
+        <name>TEMPLATE58</name>
+        <next/>
+        <next_child/>
+        <roles/>
+        <short_description/>
+        <show_on_template_bar>true</show_on_template_bar>
+        <stand_alone>false</stand_alone>
+        <sys_class_name>sys_template</sys_class_name>
+        <sys_created_by>ali@ligado.com</sys_created_by>
+        <sys_created_on>2019-09-12 18:47:12</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>6a4b779edbb37700045bff971d9619d9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>TEMPLATE58</sys_name>
+        <sys_package display_value="ECCR" source="x_lin_eccr">d00769d9db2f7300045bff971d961932</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="ECCR">d00769d9db2f7300045bff971d961932</sys_scope>
+        <sys_update_name>sys_template_6a4b779edbb37700045bff971d9619d9</sys_update_name>
+        <sys_updated_by>ali@ligado.com</sys_updated_by>
+        <sys_updated_on>2019-09-12 18:47:12</sys_updated_on>
+        <table>x_lin_eccr_shipment_request</table>
+        <template>state=20^u_citizenship=9e9406cadb9beb00faa679398c961957^u_city=a^u_company_name=a^u_country=ab09d91cdb006700045bff971d9619a6^u_date_requested=2019-09-12 14:46:28^u_export_controlled=itar^u_item_type=documents^u_recipient_s_name=a^u_requested_for=83c047cbdbfa8b009cc9fdb61d961900^u_require_facilities_to_perform_shipping=false^u_state_province=a^u_street_address=a^u_submitter=6349b24fdbba4f001418f9961d961904^u_zip_postal_code=a^EQ</template>
+        <user display_value="Ali Mowazi">6349b24fdbba4f001418f9961d961904</user>
+        <view/>
+    </sys_template>
+</record_update>

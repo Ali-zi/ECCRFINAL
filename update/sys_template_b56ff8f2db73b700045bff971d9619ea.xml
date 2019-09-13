@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_template">
+    <sys_template action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <global>false</global>
+        <group/>
+        <link_element/>
+        <name>TEMPLATE62</name>
+        <next/>
+        <next_child/>
+        <roles/>
+        <short_description/>
+        <show_on_template_bar>true</show_on_template_bar>
+        <stand_alone>false</stand_alone>
+        <sys_class_name>sys_template</sys_class_name>
+        <sys_created_by>ali@ligado.com</sys_created_by>
+        <sys_created_on>2019-09-13 18:23:12</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>b56ff8f2db73b700045bff971d9619ea</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>TEMPLATE62</sys_name>
+        <sys_package display_value="ECCR" source="x_lin_eccr">d00769d9db2f7300045bff971d961932</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="ECCR">d00769d9db2f7300045bff971d961932</sys_scope>
+        <sys_update_name>sys_template_b56ff8f2db73b700045bff971d9619ea</sys_update_name>
+        <sys_updated_by>ali@ligado.com</sys_updated_by>
+        <sys_updated_on>2019-09-13 18:23:12</sys_updated_on>
+        <table>u_shipment_request</table>
+        <template>opened_at=2019-09-13 14:22:05^opened_by=6349b24fdbba4f001418f9961d961904^u_citizenship=9e9406cadb9beb00faa679398c961957^u_city=d^u_company_name=d^u_country=2709d91cdb006700045bff971d9619a6^u_country_of_citizenship=2709d91cdb006700045bff971d9619a6^u_date_delivery_required=2019-09-13^u_export_controlled=EAR^u_item_type=Commodities^u_purpose_of_export=s^u_recipient_s_email_address=ssdss@sass.com^u_recipient_s_name=d^u_recipient_s_phone=+61326564894^u_require_facilities_perform=false^u_state_province=d^u_street_address=d^u_submitter.email=Sachin@ligado.com^u_submitter=35e13c7ddbbcd7401edaff971d9619b3^u_zip_postal_code=d^EQ</template>
+        <user display_value="Ali Mowazi">6349b24fdbba4f001418f9961d961904</user>
+        <view/>
+    </sys_template>
+</record_update>

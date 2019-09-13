@@ -1,0 +1,478 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_cost_center" table="x_lin_eccr_commodity_information" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_cost_center</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Please select</label>
+            <language>en</language>
+            <name>x_lin_eccr_commodity_information</name>
+            <sequence>10</sequence>
+            <sys_created_by>ali@ligado.com</sys_created_by>
+            <sys_created_on>2019-09-12 18:16:00</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e924731adbb37700045bff971d961966</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ali@ligado.com</sys_updated_by>
+            <sys_updated_on>2019-09-12 18:16:00</sys_updated_on>
+            <value>NULL_OVERRIDE</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_cost_center</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>1000-Network Management</label>
+            <language>en</language>
+            <name>x_lin_eccr_commodity_information</name>
+            <sequence>11</sequence>
+            <sys_created_by>ali@ligado.com</sys_created_by>
+            <sys_created_on>2019-09-12 18:18:54</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0fd4b71adbb37700045bff971d9619b5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ali@ligado.com</sys_updated_by>
+            <sys_updated_on>2019-09-12 18:18:54</sys_updated_on>
+            <value>1000-Network Management</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_cost_center</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>1400-Facilities</label>
+            <language>en</language>
+            <name>x_lin_eccr_commodity_information</name>
+            <sequence>13</sequence>
+            <sys_created_by>ali@ligado.com</sys_created_by>
+            <sys_created_on>2019-09-12 18:19:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>38e4b71adbb37700045bff971d9619bc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ali@ligado.com</sys_updated_by>
+            <sys_updated_on>2019-09-12 18:19:01</sys_updated_on>
+            <value>1400-Facilities</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_cost_center</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>1420-Services and Infrastructure Technology</label>
+            <language>en</language>
+            <name>x_lin_eccr_commodity_information</name>
+            <sequence>15</sequence>
+            <sys_created_by>ali@ligado.com</sys_created_by>
+            <sys_created_on>2019-09-12 18:19:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2ae4371adbb37700045bff971d961936</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ali@ligado.com</sys_updated_by>
+            <sys_updated_on>2019-09-12 18:19:09</sys_updated_on>
+            <value>1420-Services and Infrastructure Technology</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_cost_center</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>1500-Satellite Network Engineering</label>
+            <language>en</language>
+            <name>x_lin_eccr_commodity_information</name>
+            <sequence>20</sequence>
+            <sys_created_by>ali@ligado.com</sys_created_by>
+            <sys_created_on>2019-09-12 18:16:17</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3c443b96dbb37700045bff971d96199b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ali@ligado.com</sys_updated_by>
+            <sys_updated_on>2019-09-12 18:16:17</sys_updated_on>
+            <value>1500-Satellite Network Engineering</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_cost_center</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>1510-Technology Research and Analysis</label>
+            <language>en</language>
+            <name>x_lin_eccr_commodity_information</name>
+            <sequence>30</sequence>
+            <sys_created_by>ali@ligado.com</sys_created_by>
+            <sys_created_on>2019-09-12 18:16:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>fe443b96dbb37700045bff971d9619b3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ali@ligado.com</sys_updated_by>
+            <sys_updated_on>2019-09-12 18:16:26</sys_updated_on>
+            <value>1510-Technology Research and Analysis</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_cost_center</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>1515-Network</label>
+            <language>en</language>
+            <name>x_lin_eccr_commodity_information</name>
+            <sequence>40</sequence>
+            <sys_created_by>ali@ligado.com</sys_created_by>
+            <sys_created_on>2019-09-12 18:16:33</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>64543b96dbb37700045bff971d9619b8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ali@ligado.com</sys_updated_by>
+            <sys_updated_on>2019-09-12 18:16:33</sys_updated_on>
+            <value>1515-Network</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_cost_center</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>1520-Network Operations</label>
+            <language>en</language>
+            <name>x_lin_eccr_commodity_information</name>
+            <sequence>50</sequence>
+            <sys_created_by>ali@ligado.com</sys_created_by>
+            <sys_created_on>2019-09-12 18:16:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4a547f56dbb37700045bff971d9619d4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ali@ligado.com</sys_updated_by>
+            <sys_updated_on>2019-09-12 18:16:39</sys_updated_on>
+            <value>1520-Network Operations</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_cost_center</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>1525-Satellite Gateways</label>
+            <language>en</language>
+            <name>x_lin_eccr_commodity_information</name>
+            <sequence>60</sequence>
+            <sys_created_by>ali@ligado.com</sys_created_by>
+            <sys_created_on>2019-09-12 18:16:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c0647bd6dbb37700045bff971d9619a4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ali@ligado.com</sys_updated_by>
+            <sys_updated_on>2019-09-12 18:16:48</sys_updated_on>
+            <value>1525-Satellite Gateways</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_cost_center</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>1530-Spectrum Mgmt &amp; Radio Access Technology</label>
+            <language>en</language>
+            <name>x_lin_eccr_commodity_information</name>
+            <sequence>70</sequence>
+            <sys_created_by>ali@ligado.com</sys_created_by>
+            <sys_created_on>2019-09-12 18:16:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>86643b96dbb37700045bff971d961953</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ali@ligado.com</sys_updated_by>
+            <sys_updated_on>2019-09-12 18:16:55</sys_updated_on>
+            <value>1530-Spectrum Mgmt &amp; Radio Access Technology</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_cost_center</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>1545-Technology Development and Validation</label>
+            <language>en</language>
+            <name>x_lin_eccr_commodity_information</name>
+            <sequence>80</sequence>
+            <sys_created_by>ali@ligado.com</sys_created_by>
+            <sys_created_on>2019-09-12 18:17:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9874371adbb37700045bff971d96191a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ali@ligado.com</sys_updated_by>
+            <sys_updated_on>2019-09-12 18:17:04</sys_updated_on>
+            <value>1545-Technology Development and Validation</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_cost_center</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>1600-Ligado Canada Operations</label>
+            <language>en</language>
+            <name>x_lin_eccr_commodity_information</name>
+            <sequence>90</sequence>
+            <sys_created_by>ali@ligado.com</sys_created_by>
+            <sys_created_on>2019-09-12 18:17:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d674331adbb37700045bff971d9619ef</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ali@ligado.com</sys_updated_by>
+            <sys_updated_on>2019-09-12 18:17:12</sys_updated_on>
+            <value>1600-Ligado Canada Operations</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_cost_center</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>4100-Enterprise Sales</label>
+            <language>en</language>
+            <name>x_lin_eccr_commodity_information</name>
+            <sequence>100</sequence>
+            <sys_created_by>ali@ligado.com</sys_created_by>
+            <sys_created_on>2019-09-12 18:17:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9d84371adbb37700045bff971d961946</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ali@ligado.com</sys_updated_by>
+            <sys_updated_on>2019-09-12 18:17:26</sys_updated_on>
+            <value>4100-Enterprise Sales</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_cost_center</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>4200- Marketing</label>
+            <language>en</language>
+            <name>x_lin_eccr_commodity_information</name>
+            <sequence>110</sequence>
+            <sys_created_by>ali@ligado.com</sys_created_by>
+            <sys_created_on>2019-09-12 18:17:33</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d384ffd6dbb37700045bff971d96199f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ali@ligado.com</sys_updated_by>
+            <sys_updated_on>2019-09-12 18:17:33</sys_updated_on>
+            <value>4200- Marketing</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_cost_center</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>4220-Product Management</label>
+            <language>en</language>
+            <name>x_lin_eccr_commodity_information</name>
+            <sequence>120</sequence>
+            <sys_created_by>ali@ligado.com</sys_created_by>
+            <sys_created_on>2019-09-12 18:17:41</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c194b31adbb37700045bff971d9619cb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ali@ligado.com</sys_updated_by>
+            <sys_updated_on>2019-09-12 18:17:41</sys_updated_on>
+            <value>4220-Product Management</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_cost_center</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>6000-Executive Management</label>
+            <language>en</language>
+            <name>x_lin_eccr_commodity_information</name>
+            <sequence>130</sequence>
+            <sys_created_by>ali@ligado.com</sys_created_by>
+            <sys_created_on>2019-09-12 18:17:47</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ba94b71adbb37700045bff971d9619e4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ali@ligado.com</sys_updated_by>
+            <sys_updated_on>2019-09-12 18:17:47</sys_updated_on>
+            <value>6000-Executive Management</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_cost_center</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>6100-Procurement</label>
+            <language>en</language>
+            <name>x_lin_eccr_commodity_information</name>
+            <sequence>140</sequence>
+            <sys_created_by>ali@ligado.com</sys_created_by>
+            <sys_created_on>2019-09-12 18:17:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>28a4f31adbb37700045bff971d9619c0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ali@ligado.com</sys_updated_by>
+            <sys_updated_on>2019-09-12 18:17:55</sys_updated_on>
+            <value>6100-Procurement</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_cost_center</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>6150-Legal</label>
+            <language>en</language>
+            <name>x_lin_eccr_commodity_information</name>
+            <sequence>150</sequence>
+            <sys_created_by>ali@ligado.com</sys_created_by>
+            <sys_created_on>2019-09-12 18:18:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>eea4b71adbb37700045bff971d961944</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ali@ligado.com</sys_updated_by>
+            <sys_updated_on>2019-09-12 18:18:03</sys_updated_on>
+            <value>6150-Legal</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_cost_center</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>6200-Regulatory Affairs</label>
+            <language>en</language>
+            <name>x_lin_eccr_commodity_information</name>
+            <sequence>160</sequence>
+            <sys_created_by>ali@ligado.com</sys_created_by>
+            <sys_created_on>2019-09-12 18:18:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c4b4371adbb37700045bff971d961924</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ali@ligado.com</sys_updated_by>
+            <sys_updated_on>2019-09-12 18:18:09</sys_updated_on>
+            <value>6200-Regulatory Affairs</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_cost_center</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>6300-Human Resource</label>
+            <language>en</language>
+            <name>x_lin_eccr_commodity_information</name>
+            <sequence>170</sequence>
+            <sys_created_by>ali@ligado.com</sys_created_by>
+            <sys_created_on>2019-09-12 18:18:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1db4771adbb37700045bff971d961935</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ali@ligado.com</sys_updated_by>
+            <sys_updated_on>2019-09-12 18:18:14</sys_updated_on>
+            <value>6300-Human Resource</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_cost_center</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>6500-Finance</label>
+            <language>en</language>
+            <name>x_lin_eccr_commodity_information</name>
+            <sequence>180</sequence>
+            <sys_created_by>ali@ligado.com</sys_created_by>
+            <sys_created_on>2019-09-12 18:18:24</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>27b4731adbb37700045bff971d9619ff</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ali@ligado.com</sys_updated_by>
+            <sys_updated_on>2019-09-12 18:18:24</sys_updated_on>
+            <value>6500-Finance</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_cost_center</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>6520-Strategic Planning &amp; Pricing</label>
+            <language>en</language>
+            <name>x_lin_eccr_commodity_information</name>
+            <sequence>190</sequence>
+            <sys_created_by>ali@ligado.com</sys_created_by>
+            <sys_created_on>2019-09-12 18:18:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8dc4771adbb37700045bff971d96193b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ali@ligado.com</sys_updated_by>
+            <sys_updated_on>2019-09-12 18:18:30</sys_updated_on>
+            <value>6520-Strategic Planning &amp; Pricing</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_cost_center</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>6530-Corporate Development</label>
+            <language>en</language>
+            <name>x_lin_eccr_commodity_information</name>
+            <sequence>200</sequence>
+            <sys_created_by>ali@ligado.com</sys_created_by>
+            <sys_created_on>2019-09-12 18:18:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>aac4ffd6dbb37700045bff971d9619a6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ali@ligado.com</sys_updated_by>
+            <sys_updated_on>2019-09-12 18:18:35</sys_updated_on>
+            <value>6530-Corporate Development</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_cost_center</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>6600-General &amp; Administrative</label>
+            <language>en</language>
+            <name>x_lin_eccr_commodity_information</name>
+            <sequence>210</sequence>
+            <sys_created_by>ali@ligado.com</sys_created_by>
+            <sys_created_on>2019-09-12 18:18:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6cd43b1adbb37700045bff971d961941</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ali@ligado.com</sys_updated_by>
+            <sys_updated_on>2019-09-12 18:18:44</sys_updated_on>
+            <value>6600-General &amp; Administrative</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_cost_center</element>
+            <name>x_lin_eccr_commodity_information</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>ali@ligado.com</sys_created_by>
+            <sys_created_on>2019-09-12 18:16:00</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>a4347796dbb37700045bff971d96190f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_cost_center</sys_name>
+            <sys_package display_value="ECCR" source="x_lin_eccr">d00769d9db2f7300045bff971d961932</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="ECCR">d00769d9db2f7300045bff971d961932</sys_scope>
+            <sys_update_name>sys_choice_x_lin_eccr_commodity_information_u_cost_center</sys_update_name>
+            <sys_updated_by>ali@ligado.com</sys_updated_by>
+            <sys_updated_on>2019-09-12 18:16:00</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="task" label="Shipment Request" max_length="40" name="x_lin_eccr_shipment_request" sizeclass="3" type="collection">
+        <element label="Budget Center" max_length="40" name="u_budget_center" type="string"/>
+        <element choice="1" label="Citizenship" max_length="32" name="u_citizenship" reference="u_citizenships" type="reference">
+            <choice/>
+        </element>
+        <element label="City" mandatory="true" max_length="100" name="u_city" type="string"/>
+        <element label="Comments" max_length="1000" name="u_comments" type="string"/>
+        <element label="Company Name" mandatory="true" max_length="100" name="u_company_name" type="string"/>
+        <element label="Country" mandatory="true" max_length="32" name="u_country" reference="u_foreign_locations" type="reference"/>
+        <element label="Country of Citizenship" max_length="32" name="u_country_of_citizenship" reference="u_foreign_locations" type="reference"/>
+        <element label="Date Delivery Required" mandatory="true" max_length="40" name="u_date_delivery_required" type="glide_date"/>
+        <element default="javascript:gs.nowDateTime()" dynamic_default_value="79cb83a85f220100a9ad2572f2b4773c" label="Date Requested" max_length="40" name="u_date_requested" type="glide_date_time" use_dynamic_default="true"/>
+        <element attributes="edge_encryption_enabled=true" default="Shipment/Mailing of Documents:&#13;&#10;Along with tracking domestic shipments, the purpose of the Shipment Request form is to elicit information regarding documents containing technical data that is intended to be physically mailed or shipped to (i) foreign persons, including Canadian employees, or (ii) a foreign jurisdiction (including Canada).   Information you provide regarding the technical data will allow Legal to determine whether the technical data is export-controlled.  All export-controlled documents or data must be reviewed and approved by Legal PRIOR to export.  For review, please email documents to Legal.&#13;&#10;&#13;&#10;Shipment/Mailing of Commodities:  &#13;&#10;Along with tracking domestic shipments, the purpose of the Shipment Request form is also to elicit information regarding commodities intended to be physically mailed or shipped to (i) foreign persons, including Canadian employees, or (ii) a foreign jurisdiction (including Canada).   Information you provide regarding the items to be shipped will allow Legal to determine whether the items are export-controlled.  The international shipment of commodities must be reviewed and approved by Legal PRIOR to export.   Please add a line item for each separate commodity even if the items will be packaged together for shipment." label="." max_length="10000" name="u_description" read_only="true" type="string"/>
+        <element choice="1" label="Export Controlled" mandatory="true" max_length="40" name="u_export_controlled" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Please select" sequence="100" value="NULL_OVERRIDE"/>
+                <element inactive_on_update="false" label="ITAR" sequence="200" value="itar"/>
+                <element inactive_on_update="false" label="EAR" sequence="300" value="ear"/>
+                <element inactive_on_update="false" label="Not Export Controlled" sequence="400" value="not export controlled"/>
+                <element inactive_on_update="false" label="Unknown" sequence="500" value="unknown"/>
+            </choice>
+        </element>
+        <element choice="1" label="Item Type" mandatory="true" max_length="40" name="u_item_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Please Select" sequence="100" value="NULL_OVERRIDE"/>
+                <element inactive_on_update="false" label="Documents" sequence="200" value="documents"/>
+                <element inactive_on_update="false" label="Commodities" sequence="300" value="commodities"/>
+            </choice>
+        </element>
+        <element label="Purpose of Export" max_length="1000" name="u_purpose_of_export" type="string"/>
+        <element label="Recipient's Email Address" max_length="100" name="u_recipient_s_email_address" type="string"/>
+        <element label="Recipient's Name" mandatory="true" max_length="60" name="u_recipient_s_name" type="string"/>
+        <element attributes="pn_strict=false,pn_display_territory_selector=false,edge_encryption_enabled=true" label="Recipient's Phone" mandatory="true" max_length="40" name="u_recipient_s_phone" type="phone_number_e164"/>
+        <element label="Requested For" mandatory="true" max_length="32" name="u_requested_for" reference="sys_user" type="reference"/>
+        <element label="Require Facilities to perform shipping" max_length="40" name="u_require_facilities_to_perform_shipping" type="boolean"/>
+        <element label="State/Province" mandatory="true" max_length="100" name="u_state_province" type="string"/>
+        <element label="Street Address" mandatory="true" max_length="100" name="u_street_address" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="Shipment/Mailing of Documents:Along with tracking domestic shipments, the purpose of the Shipment Request form is to elicit information regarding documents containing technical data that is intended to be physically mailed or shipped to (i) foreign persons, including Canadian employees, or (ii) a foreign jurisdiction (including Canada).   Information you provide regarding the technical data will allow Legal to determine whether the technical data is export-controlled.  All export-controlled documents or data must be reviewed and approved by Legal PRIOR to export.  For review, please email documents to Legal.Shipment/Mailing of Commodities:  Along with tracking domestic shipments, the purpose of the Shipment Request form is also to elicit information regarding commodities intended to be physically mailed or shipped to (i) foreign persons, including Canadian employees, or (ii) a foreign jurisdiction (including Canada).   Information you provide regarding the items to be shipped will allow Legal to determine whether the items are export-controlled.  The international shipment of commodities must be reviewed and approved by Legal PRIOR to export.   Please add a line item for each separate commodity even if the items will be packaged together for shipment." label="String 1" max_length="10000" name="u_string_1" read_only="true" type="string"/>
+        <element default="javascript:gs.getUserID();" dynamic_default_value="4a3c765edbff3700045bff971d961931" label="Submitter" max_length="32" name="u_submitter" reference="sys_user" type="reference" use_dynamic_default="true"/>
+        <element label="Suite/Floor" max_length="100" name="u_suite_floor" type="string"/>
+        <element choice="1" label="Type of Service" max_length="40" name="u_type_of_service" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Please Select" sequence="100" value="NULL_OVERRIDE"/>
+                <element inactive_on_update="false" label="Via Common Carrier" sequence="200" value="Via Common Carrier"/>
+                <element inactive_on_update="false" label="Via Freight" sequence="300" value="Via Freight"/>
+                <element inactive_on_update="false" label="Via Courier" sequence="400" value="Via Courier"/>
+                <element inactive_on_update="false" label="Via US Postal Service" sequence="500" value="Via US Postal Service"/>
+                <element inactive_on_update="false" label="Best Option" sequence="600" value="Best Option"/>
+            </choice>
+        </element>
+        <element label="Zip/Postal Code" mandatory="true" max_length="40" name="u_zip_postal_code" type="string"/>
+    </element>
+</database>

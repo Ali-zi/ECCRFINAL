@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_business_entity" table="x_lin_eccr_document_information" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_business_entity</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Ligado Networks Corp</label>
+            <language>en</language>
+            <name>x_lin_eccr_document_information</name>
+            <sequence>10</sequence>
+            <sys_created_by>ali@ligado.com</sys_created_by>
+            <sys_created_on>2019-09-12 17:51:18</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>703e63d2dbb37700045bff971d9619e0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ali@ligado.com</sys_updated_by>
+            <sys_updated_on>2019-09-12 17:51:18</sys_updated_on>
+            <value>Ligado Networks Corp</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_business_entity</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Ligado Networks LLC</label>
+            <language>en</language>
+            <name>x_lin_eccr_document_information</name>
+            <sequence>20</sequence>
+            <sys_created_by>ali@ligado.com</sys_created_by>
+            <sys_created_on>2019-09-12 17:51:28</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c59ea7d2dbb37700045bff971d961934</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ali@ligado.com</sys_updated_by>
+            <sys_updated_on>2019-09-12 17:51:28</sys_updated_on>
+            <value>Ligado Networks LLC</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_business_entity</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>One Dot Six LLC</label>
+            <language>en</language>
+            <name>x_lin_eccr_document_information</name>
+            <sequence>30</sequence>
+            <sys_created_by>ali@ligado.com</sys_created_by>
+            <sys_created_on>2019-09-12 17:51:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>039e27d2dbb37700045bff971d961903</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ali@ligado.com</sys_updated_by>
+            <sys_updated_on>2019-09-12 17:51:36</sys_updated_on>
+            <value>One Dot Six LLC</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_business_entity</element>
+            <name>x_lin_eccr_document_information</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>ali@ligado.com</sys_created_by>
+            <sys_created_on>2019-09-12 17:51:18</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>3e8ea7d2dbb37700045bff971d961931</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_business_entity</sys_name>
+            <sys_package display_value="ECCR" source="x_lin_eccr">d00769d9db2f7300045bff971d961932</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="ECCR">d00769d9db2f7300045bff971d961932</sys_scope>
+            <sys_update_name>sys_choice_x_lin_eccr_document_information_u_business_entity</sys_update_name>
+            <sys_updated_by>ali@ligado.com</sys_updated_by>
+            <sys_updated_on>2019-09-12 17:51:18</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

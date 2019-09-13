@@ -30,7 +30,7 @@
         <element label="Serial Number" max_length="40" name="u_serial_number_smartphone" type="string"/>
         <element label="Smartphone" max_length="40" name="u_smartphone" type="boolean"/>
         <element label="Special Requirements and/or Additional Countries" max_length="300" name="u_special_requirements" type="string"/>
-        <element label="Submitter" max_length="32" name="u_submitter" reference="sys_user" type="reference" use_dynamic_default="true"/>
+        <element default="javascript:gs.getUserID();" dynamic_default_value="394b64addbbf73009cc9fdb61d961977" label="Submitter" max_length="32" name="u_submitter" reference="sys_user" type="reference" use_dynamic_default="true"/>
         <element choice="1" label="Travel Destination" max_length="40" name="u_travel_destination" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Please select" value="NULL_OVERRIDE"/>
