@@ -33,12 +33,12 @@
         <sys_created_by>ali@ligado.com</sys_created_by>
         <sys_created_on>2019-09-09 19:45:01</sys_created_on>
         <sys_id>827b68addbbf73009cc9fdb61d9619bd</sys_id>
-        <sys_mod_count>181</sys_mod_count>
+        <sys_mod_count>182</sys_mod_count>
         <sys_updated_by>ali@ligado.com</sys_updated_by>
-        <sys_updated_on>2019-09-13 15:11:27</sys_updated_on>
+        <sys_updated_on>2019-09-17 13:36:34</sys_updated_on>
         <table>x_lin_eccr_electronic_data_transfer_request</table>
         <timezone/>
-        <validated>false</validated>
+        <validated>true</validated>
         <workflow display_value="u_edr">97cbacaddbbf73009cc9fdb61d961976</workflow>
     </wf_workflow_version>
     <wf_workflow action="INSERT_OR_UPDATE">
