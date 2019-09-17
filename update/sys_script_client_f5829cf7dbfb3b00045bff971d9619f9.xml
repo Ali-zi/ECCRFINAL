@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>If  not a US Citizen or Greencard holder,  display the List all Foreign Citizenships and make it mandatory.</description>
+        <field>u_us_citizen</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>If Not U.S. Citizen or Greencard Holder</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+	if(newValue === 'no'){
+		g_form.setDisplay('u_list_all_foreign_citizenships', true);
+		g_form.setMandatory('u_list_all_foreign_citizenships');
+	} else {
+		g_form.setMandatory('u_list_all_foreign_citizenships');
+		g_form.setDisplay('u_list_all_foreign_citizenships');
+	}
+
+   //Type appropriate comment here, and begin script below
+   
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>ali@ligado.com</sys_created_by>
+        <sys_created_on>2019-09-16 17:43:32</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>f5829cf7dbfb3b00045bff971d9619f9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>If Not U.S. Citizen or Greencard Holder</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="ECCR" source="x_lin_eccr">d00769d9db2f7300045bff971d961932</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="ECCR">d00769d9db2f7300045bff971d961932</sys_scope>
+        <sys_update_name>sys_script_client_f5829cf7dbfb3b00045bff971d9619f9</sys_update_name>
+        <sys_updated_by>ali@ligado.com</sys_updated_by>
+        <sys_updated_on>2019-09-16 17:43:32</sys_updated_on>
+        <table>x_lin_eccr_external_participants</table>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>
