@@ -53,7 +53,7 @@
         </element>
         <element label="RMA Number" max_length="40" name="u_rma_number" type="string"/>
         <element label="Serial Number" mandatory="true" max_length="40" name="u_serial_number" type="string"/>
-        <element label="Shipment Request" mandatory="true" max_length="32" name="u_shipment_request" reference="x_lin_eccr_shipment_request" type="reference"/>
+        <element label="Shipment Request" mandatory="true" max_length="32" name="u_shipment_request" read_only="true" reference="x_lin_eccr_shipment_request" type="reference"/>
         <element label="USML Category or ECCN" mandatory="true" max_length="100" name="u_usml_category_or_eccn" type="string"/>
         <element label="Value" mandatory="true" max_length="20" name="u_value" type="currency"/>
         <element label="Weight (lbs)" mandatory="true" max_length="20" name="u_weight_lbs" type="decimal"/>
