@@ -9,7 +9,7 @@
         <choice/>
         <choice_field/>
         <choice_table/>
-        <column_label>		</column_label>
+        <column_label/>
         <comments/>
         <create_roles/>
         <default_value>The purpose of this form is to elicit information necessary to record all international business travel (which includes international personal travel with company-issued devices) and to ensure that sharing technical data during international travel (or the mere travel with technical data) is in accordance with applicable law. Please provide a detailed description of your travel, including the purpose of your travel and whether technical data will be released to foreign persons (including Canadian employees) while abroad. In addition, please provide a detailed description of any company-issued laptop, blackberry/smartphone, PDA (personal digital assistant) and any software as you will be issued a Temporary Export (Tools-of-the-Trade) letter by the Legal department prior to your international travel. All international travel must be approved in ADVANCE by Legal.</default_value>
@@ -49,16 +49,16 @@
         <sys_created_by>ali@ligado.com</sys_created_by>
         <sys_created_on>2019-08-30 14:46:40</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
-        <sys_id>1f97c81edb277300045bff971d9619c5</sys_id>
-        <sys_mod_count>3</sys_mod_count>
-        <sys_name>		</sys_name>
+        <sys_id>ac360085dbc00c10045bff971d961917</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_lin_eccr_international_travel_request</sys_name>
         <sys_package display_value="ECCR" source="x_lin_eccr">d00769d9db2f7300045bff971d961932</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="ECCR">d00769d9db2f7300045bff971d961932</sys_scope>
         <sys_update_name>sys_dictionary_x_lin_eccr_international_travel_request_u_header</sys_update_name>
-        <sys_updated_by>ali@ligado.com</sys_updated_by>
-        <sys_updated_on>2019-09-05 17:06:41</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2019-09-20 13:59:54</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
