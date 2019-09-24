@@ -165,6 +165,20 @@
             <sys_user/>
             <type/>
         </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_approving_manager</element>
+            <position>11</position>
+            <sys_created_by>ali@ligado.com</sys_created_by>
+            <sys_created_on>2019-09-24 14:44:47</sys_created_on>
+            <sys_id>abe634dedb0c4c109cc9fdb61d9619c0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_lin_eccr_international_travel_request" sys_domain="global" view="Default view">4fa040d6db277300045bff971d9619a3</sys_ui_section>
+            <sys_updated_by>ali@ligado.com</sys_updated_by>
+            <sys_updated_on>2019-09-24 14:44:47</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
         <sys_ui_section action="INSERT_OR_UPDATE">
             <caption/>
             <header>false</header>

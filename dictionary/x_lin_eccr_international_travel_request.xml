@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element extends="task" label="International Travel Request" max_length="40" name="x_lin_eccr_international_travel_request" sizeclass="2" type="collection">
+        <element label="Approving Manager" max_length="32" name="u_approving_manager" reference="sys_user" type="reference"/>
         <element label="Approximate Value" max_length="20" name="u_approximate_value_laptop" type="price"/>
         <element label="Approximate Value" max_length="20" name="u_approximate_value_other" type="price"/>
         <element label="Approximate Value" max_length="20" name="u_approximate_value_smartphone" type="price"/>
