@@ -8,7 +8,7 @@
                 <element inactive_on_update="false" label="ITAR" sequence="30" value="ITAR"/>
             </choice>
         </element>
-        <element attributes="edge_encryption_enabled=true" default="The purpose of this form is to elicit information necessary to make an export determination on documents containing technical data prior to release to foreign persons.  All export controlled documents or data must be reviewed and approved by Legal PRIOR to export. Please email documents to Dwayne Brodie at dwayne@ligado.com." label="╔" max_length="1000" name="u_header" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="The purpose of this form is to elicit information necessary to make an export determination on documents containing technical data prior to release to foreign persons.  All export controlled documents or data must be reviewed and approved by Legal PRIOR to export. Please email documents to Dwayne Brodie at dwayne@ligado.com." label="." max_length="1000" name="u_header" read_only="true" type="string"/>
         <element label="Requested For" mandatory="true" max_length="32" name="u_requested_for" reference="sys_user" type="reference"/>
         <element default="javascript:gs.getUserID();" dynamic_default_value="041b60addbbf73009cc9fdb61d9619ff" label="Submitter" max_length="32" name="u_submitter" reference="sys_user" type="reference" use_dynamic_default="true"/>
     </element>

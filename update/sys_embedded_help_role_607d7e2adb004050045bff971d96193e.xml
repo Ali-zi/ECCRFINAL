@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>1000</order>
+        <role display_value="x_lin_test_scope.user" name="x_lin_test_scope.user">207d7e2adb004050045bff971d96193c</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>sheila.berthiaume@ligado.com</sys_created_by>
+        <sys_created_on>2019-09-25 19:10:59</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>607d7e2adb004050045bff971d96193e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>207d7e2adb004050045bff971d96193c</sys_name>
+        <sys_package display_value="ECCR" source="x_lin_eccr">d00769d9db2f7300045bff971d961932</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="ECCR">d00769d9db2f7300045bff971d961932</sys_scope>
+        <sys_update_name>sys_embedded_help_role_607d7e2adb004050045bff971d96193e</sys_update_name>
+        <sys_updated_by>sheila.berthiaume@ligado.com</sys_updated_by>
+        <sys_updated_on>2019-09-25 19:10:59</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>
